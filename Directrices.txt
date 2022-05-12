@@ -1,0 +1,16 @@
+COLORES DE PAGINA:--------------------
+
+PRIMARIO: 
+SECUNDARIO:
+TERCIARIO:
+
+FUENTES:-------------------
+
+TITULOS:
+TITULOS2:
+CONTENIDOS:
+CONTENIDOS2:
+
+TAMAÑO IMG:----------------
+JUMBO: x PX x PX
+UBICA: x PX x PX

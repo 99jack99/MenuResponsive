@@ -1,7 +1,7 @@
 COLORES DE PAGINA:--------------------
 
-PRIMARIO: 
-SECUNDARIO:
+PRIMARIO: hex #962121 
+SECUNDARIO: #fafbfd
 TERCIARIO:
 
 FUENTES:-------------------

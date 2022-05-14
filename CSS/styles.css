@@ -1,4 +1,3 @@
-
 /* Fuentes */
 @font-face {
     font-family: "fonarto";
@@ -40,14 +39,16 @@ body {
     border-bottom: 2px solid red;
 }
 
-.itemNav{
+.itemNav {
     margin-top: 2em;
 }
 
 /* Panel Image */
 #panelImg {
-    background-image: url(/Img/backImg.jpg);
+    background-image: url(/Img/panelThaiImg.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     height: 60vh;
     color: #fff;
     display: flex;
@@ -55,17 +56,18 @@ body {
     justify-content: center;
 }
 
-.img-fluid{
+.img-fluid {
     margin: 0;
 }
 
-.quoteImg{
+.quoteImg {
     margin-top: 10em;
+    font-size: 1.5em;
+    text-shadow: 0.1em 0.1em black;
 }
 
 
 /* Main Content  */
-
 #mainContent {
     display: flex;
     text-align: center;
@@ -76,57 +78,86 @@ body {
     margin-top: 2em;
 }
 
-.superiorContent{
+.superiorContent {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.inferiorContent{
+.inferiorContent {
     display: flex;
     justify-content: center;
     align-items: center;
-
     margin-top: 3em;
     margin-bottom: 3em;
 }
 
-.infoBlock{
+.infoBlock {
     display: flex;
     align-items: center;
     justify-content: center;
-
-    color: white;
-
+    color: black;
     height: 7em;
-
     margin: 0.2em;
     padding: 0.5em;
-
     border: 0.2em solid black;
-    
+    transition: 0.5s;
 }
 
-.infoBlockImg{
+.infoBlock:hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    background-color: black;
+    height: 7em;
+    margin: 0.2em;
+    padding: 0.5em;
+    border: 0.2em solid black;
+    transition: 0.5s;
+}
+
+.refePara {
+    text-decoration: none;
+    color: black;
+}
+
+.cityPara {
+    color: white;
+    text-shadow: 0.1em 0.1em black;
+}
+
+.infoBlockImg {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
 }
 
-.imgBlockA{
-    background-image: url(/Img/mad1.jpg);
-   
+.infoBlockImg:hover {
+    backface-visibility: hidden;
 }
 
-.imgBlockB{
-    background-image: url(/Img/val1.jpg);
-    
+a {
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
 }
 
-.imgBlockC{
-    background-image: url(/Img/bar1.jpg);
-    
+a:hover {
+    color: red;
+    transition: 0.5s;
+}
+
+.imgBlockA {
+    background-image: url(/Img/mad.jpg);
+}
+
+.imgBlockB {
+    background-image: url(/Img/val.jpg);
+}
+
+.imgBlockC {
+    background-image: url(/Img/bar.jpg);
 }
 
 /* footer */
@@ -137,15 +168,99 @@ body {
     color: #fff;
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+
+
+#designer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+
+/* Form from contact */
+
+.formBody {
+    margin: 1em;
+}
+
+.contactTittle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactTittle h4 {
+    color: black;
+    text-shadow: 0.05em 0.05em white;
+}
+
+.contactTittle h5 {
+    text-shadow: 0.1em 0.1em black;
+}
+
+.btn-primary {
+    background-color: red;
+    color: black;
+    border: 0.2em solid black;
+
+}
+
+.btn-primary:hover {
+    background-color: black;
+    color: red;
+    border: 0.2em solid black;
+}
+
+#butSubmit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+}
+
+/* carta */
+
+.externalContainer {
+    padding: 0.5em;
+    width: 100vw;
+
+    margin: 0;
+}
+
+
+.gridMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+
+}
+
+.bloques {
    
-} 
+    
+    background-color: black;
+}
 
+.firstLevelGrid{
+    height: 6em;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.secondLevelGrid{
 
+    padding: 2em 1em 1em 2em;
 
+    height: 12em;
 
-
-
-
-
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}

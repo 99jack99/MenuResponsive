@@ -223,44 +223,60 @@ a:hover {
 
 /* carta */
 
-.externalContainer {
-    padding: 0.5em;
-    width: 100vw;
 
-    margin: 0;
+
+#goBack{
+    margin: 1em;
 }
 
-
-.gridMenu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    
-
-}
-
-.bloques {
-   
-    
+.Maincontainer{
+    height: 87vh;
     background-color: black;
-}
-
-.firstLevelGrid{
-    height: 6em;
+    margin: 1em;
 
     display: flex;
+    align-items: center;
     justify-content: center;
-    align-items: center;
+    padding: 0;
+    color: red;
+
+    /* aqui jackson */
+   
+}
+@media (max-width: 760px) {
+    .Maincontainer{
+        background-color: red;
+        color: black;
+    }
+    .supInfMainContainer{
+        color:red
+    }
+    
+}
+.innerItemCol{
+    padding: 0.5em;
 }
 
-.secondLevelGrid{
+.supSupMainContainer{
+    height: 21.75vh;
+    padding: 1em;
+}
 
-    padding: 2em 1em 1em 2em;
+.supInfMainContainer{
+    height: 21.75vh;
+    padding: 3em;
+    font-size: 1.2em;
+    font-family: fonarto-bold;
+}
 
-    height: 12em;
+.infMainContainer{
+    height: 43.5vh;
+    font-family: fonarto-light;
+}
 
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+.platePrice{
+    font-family: fonarto-bold;
+    font-style: italic;
+    color: white;
+    text-shadow: 0.05em 0.05em red;
 }

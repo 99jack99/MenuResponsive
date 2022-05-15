@@ -12,6 +12,7 @@
 
 
 <h4 align="center">A Responsive page created with <em>CSS3</em>, <em>HTML5</em> and <em>Bootstrap v5.</em> </h4>
+
 <hr>
 
 <p align="center">
@@ -40,6 +41,8 @@ Jaze was a little example of  mimicking the modern type restaurant that we curre
 <h2>Screenshots from the page</h2>
 <hr>
 *Not everything is included
+<br>
+*You can see it on: <em>https://99jack99.github.io/MenuResponsive/</em>
 <h3>Main page</he>
 <br>
 
